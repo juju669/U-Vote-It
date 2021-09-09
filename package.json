@@ -2,17 +2,19 @@
   "name": "U-Vote-It",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "nodemon",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql2": "^2.3.0"
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12"
   },
   "devDependencies": {
     "jest": "^27.1.0"
